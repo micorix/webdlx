@@ -1,0 +1,13 @@
+.app {
+  @apply h-screen w-full;
+}
+
+.navbar {
+  @apply h-12 w-full border-b border-gray-800;
+}
+
+.grid {
+  @apply flex;
+  height: calc(100vh - theme('spacing.12'));
+  width: calc(100vw - theme('spacing.32'));
+}
